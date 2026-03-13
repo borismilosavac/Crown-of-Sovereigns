@@ -1,96 +1,143 @@
 # Crown of Sovereigns
 
-**Crown of Sovereigns** is a competitive medieval **kingdom-management strategy board game** set in a historically inspired Europe around **1350**.
+**Crown of Sovereigns** je kompetitivna srednjovjekovna **board game** igra upravljanja kraljevstvom, smještena u istorijski inspirisanu Evropu oko **1350. godine**.
 
-The game combines:
+Igra spaja:
 
-- **court-driven decision making**
-- **province control**
-- **goods and trade development**
-- **structured diplomacy**
-- **condensed warfare**
-- **stability as the cost of expansion**
+- **dvor** kao glavni motor odluka
+- **provincije** kao stratešku mapnu strukturu
+- **robu** i razvoj države
+- **strukturisanu diplomatiju**
+- **kratki rat**
+- **stabilnost** kao cijenu ekspanzije
 
-The core fantasy is simple:
+Osnovna fantazija igre je jednostavna:
 
-> Build a stronger realm through your court, territory, diplomacy, and economic growth — but every step toward power can push your kingdom toward instability.
-
----
-
-## Current Version
-
-**Active development version:** **v2.3**
-
-**Status:** Locked working base for continued development and playtesting.
+> Izgradi jače kraljevstvo kroz dvor, teritoriju, diplomatiju i ekonomiju — ali svaki korak ka moći može gurnuti tvoju državu ka nestabilnosti.
 
 ---
 
-## Core Identity Pillars
+## Trenutna verzija
 
-- **Court** as the main decision engine
-- **24 provinces** as the strategic map structure
-- **1350 historical frame**
-- **Goods + Kingdom Advantages**
-- **Stability as a central balancing system**
-- **Structured diplomacy**
-- **Condensed combat**
-- **Psychological and emotional improvement focus in v2.3**
+**Aktivna razvojna verzija:** **v2.3**
+
+**Status:** zaključana radna baza za dalji razvoj, dokumentaciju i playtest.
 
 ---
 
-## Project Goals
+## Osnovni identitetski stubovi
 
-This repository exists to support:
+Projekat se zasniva na sljedećim zaključanim stubovima:
 
-- rules development
-- systems design
-- faction balancing
-- playtesting
-- UX / UI preparation
-- production planning
-- future visual design work
-- future publisher / pitch preparation
-
----
-
-## Repository Structure
-
-- `docs/` → high-level design and product documentation
-- `rules/` → rulebook, quickstart, player aids
-- `systems/` → all gameplay subsystems
-- `factions/` → faction documentation and balance notes
-- `map/` → province structure, adjacency, terrain, map logic
-- `playtests/` → logs, issue tracking, balance watch, psychology watch
-- `ux-ui/` → layout, iconography, board and player-aid structure
-- `components/` → full component planning
-- `production/` → production constraints and MSRP discipline
-- `marketing/` → hooks, positioning, product messaging
-- `references/` → research materials and historical notes
-- `archive/` → deprecated versions and old materials
+- **dvor** kao glavni motor odluka
+- **24 provincije** kao osnova mape
+- istorijski okvir **1350. godine**
+- **roba + prednosti kraljevstva**
+- **stabilnost** kao centralni balansni sistem
+- **strukturisana diplomatija**
+- **kratki i značajni sukobi**
+- jači fokus na **psihološki doživljaj**, **memorabilnost** i **poželjan proizvodni identitet** u verziji **v2.3**
 
 ---
 
-## Development Principles
+## Cilj projekta
 
-1. **Protect identity, reduce friction**
-2. **Depth without unnecessary bloat**
-3. **Strong kingdom-management fantasy**
-4. **Better wow, replay desire, and memorability**
-5. **Version discipline before visual production**
+Ovaj repozitorijum postoji da podrži:
+
+- razvoj pravila
+- dizajn sistema
+- balans frakcija
+- playtest proces
+- UX / UI pripremu
+- komponentnu i produkcijsku pripremu
+- tržišno pozicioniranje
+- pripremu prije grafičke i dizajnerske izrade
+
+Ovo je **radna razvojna baza**, a ne samo arhiva fajlova.
 
 ---
 
-## Best Current Use of This Repo
+## Struktura repozitorijuma
 
-This repository should be treated as the **single source of truth** for all development decisions before final graphic / visual design work begins.
+- `docs/` → osnovna dokumentacija o igri i proizvodu
+- `rules/` → pravila, quickstart, player aid i setup dokumenti
+- `systems/` → svi ključni mehanički sistemi
+- `factions/` → frakcije, balans i posebne napomene
+- `map/` → provincije, susjedstva, teren i logika mape
+- `playtests/` → planovi testiranja, zapisnici i issue tracking
+- `ux-ui/` → struktura table, aidova, ikonografije i informacione hijerarhije
+- `components/` → lista svih komponenti i prototipski BOM
+- `production/` → produkcijska ograničenja i MSRP disciplina
+- `marketing/` → hook, pitch, positioning i tržišne bilješke
+- `references/` → istraživački i referentni materijali
+- `archive/` → starije verzije i odbačeni sistemi
 
 ---
 
-## Next Major Goals
+## Razvojni principi
 
-- finalize v2.3 rules documentation
-- create modular systems documentation
-- prepare playtest-ready development documents
-- validate 2p / solo scaling
-- strengthen audience magnetism and replay desire
-- prepare pre-visual production documentation
+Razvoj projekta mora slijediti ove principe:
+
+1. **Čuvaj identitet, smanjuj trenje**
+2. **Dubina bez nepotrebnog bloata**
+3. **Jasan osjećaj upravljanja kraljevstvom**
+4. **Veća memorabilnost, replay želja i wow efekat**
+5. **Verziona disciplina prije vizuelne produkcije**
+6. **Bolji proizvod, ne samo više sadržaja**
+7. **Psihološki privlačna igra, ne samo mehanički pametna igra**
+
+---
+
+## Trenutni fokus razvoja
+
+Glavni fokus poslije zaključavanja verzije **v2.3** je:
+
+- stabilizacija pravila
+- jasniji onboarding
+- balans frakcija i goods puteva
+- validacija **2p** i **solo** modova
+- jačanje završnice i replay želje
+- priprema kompletne dokumentacije prije grafičke / dizajnerske izrade
+
+---
+
+## Šta ovaj repozitorijum predstavlja
+
+Ovaj repozitorijum treba tretirati kao:
+
+> **jedini izvor istine za razvoj Crown of Sovereigns prije finalne vizuelne produkcije**
+
+Sve veće odluke treba da budu:
+- dokumentovane
+- verzionisane
+- povezane sa playtest nalazima
+- i jasno smještene unutar odgovarajućih foldera i fajlova
+
+---
+
+## Sljedeći veliki ciljevi
+
+- završiti kompletan **rules dokument** za **v2.3**
+- izraditi sistemske dokumente po modulima
+- standardizovati playtest logove i issue tracking
+- validirati psihološki doživljaj partije
+- pripremiti projekat za pre-vizuelnu fazu i kasniji pitch
+
+---
+
+## Razvojna napomena
+
+**Crown of Sovereigns** se razvija kao ozbiljan strateški proizvod sa namjerom da spoji:
+
+- jasan identitet
+- mehaničku disciplinu
+- psihološku privlačnost
+- i tržišnu poželjnost
+
+Cilj nije samo da igra bude dobra.
+
+Cilj je da bude:
+- jasna
+- jaka
+- pamtljiva
+- i vrijedna ponovnog igranja.
